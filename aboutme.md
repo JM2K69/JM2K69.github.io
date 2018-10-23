@@ -25,5 +25,5 @@ I am an IT consultant and Microsoft Certified trainer for 6 years, I like automa
 
 ## Social Media / Contact Info
 * [Email: bezettorres.jerome@gmail.com](mailto:bezettorres.jerome@gmail.com)
-* [Twitter: @JM2K69](https://twitter.com/KevinMarquette)
+* [Twitter: @JM2K69](https://twitter.com/JM2K69)
 * [GitHub](https://github.com/JM2K69)
