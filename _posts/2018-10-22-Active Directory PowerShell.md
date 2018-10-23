@@ -29,7 +29,7 @@ How to create your Active Directory Lab with Powershell. We are working with the
 
 ## 1.1 Networking
 
-    How to configure networking with powershell.
+How to configure networking with powershell.
 
 ```powershell
 #Find the Interface Index for your NIC with the name Ethernet
