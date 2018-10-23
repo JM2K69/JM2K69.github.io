@@ -4,11 +4,26 @@ title: "Create your Active Directory Labs with Powershell"
 date: 2018-10-22
 tags: [PowerShell,Lab, Active Directory ]
 ---
+<!-- TOC -->
 
-* TOC
-{:toc}
+- [1.  Configure Windows Server 2019](#1--configure-windows-server-2019)
+    - [1.1 Networking](#11-networking)
+    - [1.2 ComputerName](#12-computername)
+    - [1.3 Install WindowsFeature](#13-install-windowsfeature)
+- [2.  Create Active Directory Forest](#2--create-active-directory-forest)
+- [3.  Create your Organizational Unit (OU)](#3--create-your-organizational-unit-ou)
+    - [3.1 PowerShell Time](#31-powershell-time)
+    - [3.2 Create one OU](#32-create-one-ou)
+    - [3.3 My Script](#33-my-script)
+- [4.  Create User](#4--create-user)
+    - [4.1 How to use the function](#41-how-to-use-the-function)
+- [5. The final Script](#5-the-final-script)
 
-How to create your Active Directory Lab with Powershell. We are working with the latest Windows Server 2019 version aka 1809, We use Standard version with GUI, but you can run all this step in a Windows Server Core this is more secure to my mind, but you need have a remote Windows 10 with RSAT. In my Lab I use free API `https://randomuser.me/` for create random user in my Active Directory
+<!-- /TOC -->
+
+How to create your Active Directory Lab with Powershell. We are working with the latest Windows Server 2019 version aka 1809, We use Standard version with GUI, but you can run all this step in a Windows Server Core this is more secure to my mind, but you need have a remote Windows 10 with RSAT.
+
+ In my Lab I use free API `https://randomuser.me/` for create random user in my Active Directory.
 
 # 1.  Configure Windows Server 2019
 
@@ -157,13 +172,13 @@ Pour plus d’informations sur ce paramètre, voir l’article 942564 de la Bas
 
 Then you computer restart.
 
-# 2.  Create your Organizational Unit (OU)
+# 3.  Create your Organizational Unit (OU)
 
 Now that the domain controller is up and running, you can start creating OUs. they allow to organize the objects of your company (Users, Computers, Printers ...). On these organizational units will be positioned the GPOs.
 
 ![ComputerSection](/img/OU.PNG)
 
-## 2.1 PowerShell Time
+## 3.1 PowerShell Time
 
 At first, the script must be able to work on any ADDS. This code below allows us to retrieve all the information needed to create objects in active directory.
 
@@ -175,16 +190,16 @@ $Dom = $domain[0]
 $Ext = $domain[1]
 ```
 
-## 2.2 Create one OU
+## 3.2 Create one OU
 
 Th powershell Cmdlet for create OU is very simple :
 
 ```powershell
 New-ADOrganizationalUnit -Name Test -Description Test
 ```
-In your Lab Only and not in **Production** you can adn the `-parameter` **-ProtectedFromAccidentalDeletion $false** you can easily remove the OU.
+In your Lab Only and not in **Production** you can add the `-parameter` **-ProtectedFromAccidentalDeletion $false** you can easily remove the OU.
 
-## 2.3 My Script
+## 3.3 My Script
 
 ```powershell
 # Informations
@@ -207,7 +222,7 @@ foreach  ($S in $Sites)
 
  }
 ```
-# 3.  Create User
+# 4.  Create User
 
 I Create a function to use a free [`API`](https://randomuser.me/).
 
@@ -279,7 +294,7 @@ function New-RandomUser {
 }
 ```
 
-## 3.1 How to use the function
+## 4.1 How to use the function
 
 How to :
 
@@ -310,7 +325,8 @@ foreach ($user in $users) {
 }
 
 ```
-# 4. The final Script
+
+# 5. The final Script
 
 All the part combined in one. For The different site I change the `-parameter` **Nationality**.
 In this example I create **20 Employees** and **5 Directors** / **Sites** / **Services**.
@@ -340,7 +356,7 @@ foreach  ($S in $Sites)
       
       switch ($S)
       {
-          'Lyon' {      
+          'Lyon' {
                         $Employees = New-RandomUser -Amount 20 -Nationality fr -IncludeFields name,dob,phone,cell -ExcludeFields picture | Select-Object -ExpandProperty results
                         $Directors = New-RandomUser -Amount 5 -Nationality fr -IncludeFields name,dob,phone,cell -ExcludeFields picture | Select-Object -ExpandProperty results
                  }
