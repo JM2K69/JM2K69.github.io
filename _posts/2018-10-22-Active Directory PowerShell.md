@@ -167,7 +167,6 @@ AVERTISSEMENT : Les contrôleurs de domaine Windows Server 2019 offrent un par
 
 Pour plus d’informations sur ce paramètre, voir l’article 942564 de la Base de connaissances (http://go.microsoft.com/fwlink/?LinkId=1
 04751).
-
 ```
 
 Then you computer restart.
