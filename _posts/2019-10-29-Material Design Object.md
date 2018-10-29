@@ -196,7 +196,7 @@ Here some code :
                               
 ```
 
-![ComputerSection](/img/Navbar.gif)
+![ComputerSection](/img/NavBar.gif)
 
 # 4. Other Objects
 
