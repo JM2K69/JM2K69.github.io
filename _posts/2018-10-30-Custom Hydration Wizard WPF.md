@@ -31,7 +31,7 @@ In all Hydration Kit made by **_Johan Arwidmark_**  you must change all customse
 
 ![ComputerSection](/img/HowTo2.PNG)
 
-With This Application you can personnalize all the Value during the `Tasksequence`. Becarefull if you want to make this all the MDT application can use this modificiation, they must be fully variable.
+With This Application you can personnalize all the Value during the `Tasksequence`. Be carefull if you want to make this all the MDT application can use this modificiation, they must be fully variable.
 
 # 2. Windows Form Application
 
@@ -77,6 +77,9 @@ To use it you can first `Unblock File ` or you use the Apps from **[MVP] Damien 
 ```powershell
 get-ChildItem -recurse | Unblock-File
 ```
+Be carefull if you use the latest ADK 1809 there is some problem with `WPF` in `WinPe` there is some workaround : 
+* Apply October CU to your WinPe 1809 only : [Here](https://twitter.com/SeguraOSD/status/1050596674807054336)
+* Copy 1 file from ADK 1803 into your Boot.wim [Here](https://twitter.com/ferozekhan267oa/status/1049169276656074753)
 
 ## 4.2 Use with MDT
 
