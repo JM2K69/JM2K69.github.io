@@ -83,7 +83,7 @@ timezone: "France/Paris"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 30
+paginate: 15
 
 kramdown:
   input: GFM
