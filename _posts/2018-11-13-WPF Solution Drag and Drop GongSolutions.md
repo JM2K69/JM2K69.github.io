@@ -24,7 +24,7 @@ Today I found an other solution with free library to use in you `WPF` applicatio
 
 You need at least VS Community 2015 or higher. Or Kaxaml to use the solution but for install, we need VS Community. 
 Or: You take the latest version from NuGet: [https://www.nuget.org/packages/gong-wpf-dragdrop](https://www.nuget.org/packages/gong-wpf-dragdrop/)
-I used the latest version in beta :
+I used the latest version in beta : 
 
 ```powershell
 Install-Package gong-wpf-dragdrop -Version 2.0.0-alpha0099
