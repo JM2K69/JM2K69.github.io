@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "2018-11-28-PowerShell and Group Policy Object"
+title: "PowerShell and Group Policy Object"
 date: 2018-11-28
 tags: [PowerShell,GPO, Active Directory]
 ---
