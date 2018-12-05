@@ -43,7 +43,7 @@ In this summary you can observe all the changes you have made with the Custom Hy
 
 # 3. How to download my Application
 
-The script is available in my github repository [Here](https://github.com/JM2K69/Custom-Wizard-Hydration/releases/download/1.3/CWH.zip).
+The script is available in my github repository [Here](https://github.com/JM2K69/Custom-Wizard-Hydration/releases/download/1.4/CWH.zip).
 
 **Please don't forget to Unblock Files** 
 
