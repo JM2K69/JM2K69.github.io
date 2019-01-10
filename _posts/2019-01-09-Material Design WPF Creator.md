@@ -9,7 +9,7 @@ tags: [PowerShell, Material Design, WPF, XAML, Kaxaml ]
 {:toc}
 
 
-If you want ta start `WPF` with Material Design this Projact can help you. This  WPF application create a `Blank` project with all you need to start learning `WPF` and 'Material Design`. This Apps use a RadialMenu Thank for my friend **[MVP] Damien Van Robaeys** he always find great ideas ;-).
+If you want ta start `WPF` with Material Design this Project can help you. This  WPF application create a `Blank` project with all you need to start learning `WPF` and 'Material Design`. This Apps use a RadialMenu Thank for my friend **[MVP] Damien Van Robaeys** he always find great ideas ;-).
 
 # 1. RadialMenu
 
