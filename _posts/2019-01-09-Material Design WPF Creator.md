@@ -127,7 +127,7 @@ With this button you can run also the current project in creation.
 
 We find the Windows Title, the size, the windows can be rezise with a Grip control and one button to close your future Material Design WPF Apps.
 
-## 5 How to Obtain
+# 5 How to Obtain
 
 My **Material Design WPF Creator** is available on my Github repository [here](https://github.com/JM2K69/MaterialDesign_WPF_Creator). Or you can run this command.
 
