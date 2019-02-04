@@ -3,7 +3,7 @@ layout: post
 title: "My new Book GPO in Windows Server 2019 "
 date: 2019-01-09
 tags: [Server, ADDS, GPO, PowerShell  ]
-published : false
+published : True
 ---
 
 
