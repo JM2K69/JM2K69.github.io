@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "First - Material Design theme Manager"
+title: "Material Design theme Manager -First Post"
 date: 2019-07-25
 tags: [PowerShell, Material, Design, XAML, WPF, Themes, Manager ]
 published : true
