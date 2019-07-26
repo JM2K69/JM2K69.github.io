@@ -47,9 +47,8 @@ Only one line is necessary :
 <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-            <!-- work Only In 2.6 Material Design /-->
-             <materialDesign:BundledTheme BaseTheme="Light" PrimaryColor="DeepPurple" SecondaryColor="Lime" />
-                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+               <materialDesign:BundledTheme BaseTheme="Light" PrimaryColor="DeepPurple" SecondaryColor="Lime" />
+               <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -62,8 +61,8 @@ Now let's see how to do this.
 # 2 Theme and Colors
 Before to start, here is a quick reminder about MAterial Design Theme and Colors.
 The theme is the main design of the GUI. It will work like Windows 10 with two themes:
-- BaseDark: Dark theme, meaning black
-- BaseLight: Light theme, meaning white
+- Dark: Dark theme, meaning black
+- Light: Light theme, meaning white
  
 The Primary and Secondary Colors will be used to change all colors of you Controls in one click.
 
@@ -74,7 +73,7 @@ With their own method :
 - `[MaterialDesignThemes.Wpf.ResourceDictionaryExtensions]::GetTheme` : To detect the current theme or colors
 - `[MaterialDesignThemes.Wpf.ThemeExtensions]::SetBaseTheme` : To change the current theme `Dark` or `Light`
 - `[MaterialDesignColors.SwatchHelper]::Lookup` : Use to find the colors definition object's name :  **Swatch**
-- `[MaterialDesignThemes.Wpf.ThemeExtensions]::SetPrimaryColor` :or SetSecondaryColor to change the   
+- `[MaterialDesignThemes.Wpf.ThemeExtensions]::SetPrimaryColor` :or SetSecondaryColor to change the Colors  
 
 
 ## 3.1 Theme Dynamically
@@ -88,7 +87,7 @@ As mentioned above I need to use **[MaterialDesignThemes.Wpf.ResourceDictionaryE
 
 ```
 
-_**Becarefull**_ remember this point by default the theme is define in your `XAML` in the a **<Window.Resources>** that's why I used `$Form.Resources`
+_**Becarefull**_ remember this point by default the theme is define in your `XAML` in the a `<Window.Resources>` that's why I used `$Form.Resources`
 
 ### 3.1.2 Change the theme
 
@@ -192,7 +191,7 @@ For the PrimaryColor the method is the same you must change `[MaterialDesignThem
 
 # 4 Demo time
 
-![alt text](https://github.com/JM2K69/JM2K69.github.io/blob/master/img/Gif.gif) 
+![Demo](https://github.com/JM2K69/JM2K69.github.io/blob/master/img/Gif.gif) 
 
 My project is available on Github [here](https://github.com/JM2K69/Material-Design-Theme-Manager-)
 
