@@ -191,7 +191,7 @@ For the PrimaryColor the method is the same you must change `[MaterialDesignThem
 
 # 4 Demo time
 
-![Demo](https://github.com/JM2K69/JM2K69.github.io/blob/master/img/Gif.gif) 
+![Demo](https://github.com/JM2K69/Material-Design-Theme-Manager-/blob/master/Gif/Gif.gif) 
 
 My project is available on Github [here](https://github.com/JM2K69/Material-Design-Theme-Manager-)
 
