@@ -87,7 +87,8 @@ $Dialog.IsOpen = $True
 
 $Close.add_Click({
     $Dialog.IsOpen = $False
-})```
+})
+```
 
 ## 3.1 One example with a CheckBox
 
