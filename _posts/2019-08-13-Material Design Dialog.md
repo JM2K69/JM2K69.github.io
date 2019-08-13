@@ -13,12 +13,12 @@ With the latest version 2.6 of **MaterialDesignInXamlToolkit** I decided to make
 
 The Material Design In XAML Toolkit's dialogs implementation is designed to:
 
-*Provide correct styling
-*Allow any dialog to be constructed
-*Compatible with code-behind
-*Compatible with MVVM
-*Compatible with pure XAML
-*Work in applications with multiple windows
+* Provide correct styling
+* Allow any dialog to be constructed
+* Compatible with code-behind
+* Compatible with MVVM
+* Compatible with pure XAML
+* Work in applications with multiple windows
 
 Dialogs are asynchronous so at some point you will have to deal with that in your code.
 
