@@ -43,7 +43,7 @@ When the dialog is open, the underlying content will be disabled.
 
 ## 3.1 Open with XAML
 
-There is a RoutedCommand can pe implemented in your `Button` vi the `CommandParameter` with the this code :
+There is a RoutedCommand can pe implemented in your `Button` via the `CommandParameter` with the this code :
 
 ```xml
 <Button Command="{x:Static md:DialogHost.OpenDialogCommand}" />
