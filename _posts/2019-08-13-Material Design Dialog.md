@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "Material Design Dialog - Second Post"
+title: "Material design part 2 - build dialog"
 date: 2019-08-13
 tags: [PowerShell, Material, Design, XAML, WPF, Themes, Manager ]
 published : true
