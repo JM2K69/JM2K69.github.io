@@ -49,7 +49,7 @@ Find the following information about the Author :
 * **Created** : represents the creation date for the module
 * **PSEditions** : represent whit which version it work Desktop or Core
 
-![Authors demo](/img/StatsA.gif)
+![Authors demo](/img/StatsA.PNG)
 
 ## 4.2 Module
 
