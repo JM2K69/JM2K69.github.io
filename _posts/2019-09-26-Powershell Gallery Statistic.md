@@ -64,6 +64,9 @@ Find the following information about the Author :
 
 ![Authors demo](/img/StatsM.PNG)
 
+## 4.3 Download Button
+
+With this button you can download the module in the directory `Download` in the main Directory of the application.
 
 # 5. In Action ?
 
