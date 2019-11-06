@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: "GPO from zero or to hero"
-date: 2019-11-05
+date: 2019-11-06
 tags: [PowerShell,Active Directory ]
 published : true
 ---
@@ -70,6 +70,6 @@ The order of application is :
 
 ![Auhtors_img](/img/GPO5.PNG)
 
-Thanks for reading.
+Thanks for reading the `First` post and soon the `second` post.
 
 Written by Jérôme Bezet-Torres @JM2K69.
