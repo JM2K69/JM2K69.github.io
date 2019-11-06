@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "GPO from zero or to hero"
+title: "GPO from zero to hero"
 date: 2019-11-06
 tags: [PowerShell,Active Directory ]
 published : true
