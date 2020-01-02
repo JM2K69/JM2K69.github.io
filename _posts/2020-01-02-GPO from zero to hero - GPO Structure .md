@@ -30,7 +30,7 @@ ADMX files containing registry configuration settings are stored in the director
 
 Here the structure for and **ADMX file**:
 
-![Auhtors_img](/img/GPOp2.PNG)
+![Auhtors_img](/img/GPOp2.png)
 
 
 ## 1.2	The ADML file 
@@ -39,7 +39,7 @@ Each ADMX file involves creating an ADML file. ADML files are stored in a sub-re
 
 The ADM files didn't take language into account. ADMX files benefit from their ADML file, which allows you to display the group policy setting in the desired language. Thus, by creating a sub-repertory in the directory **%systemroot%\PolicyDefinitions** and then copying the ADML files in French in this directory, if the French language is present on the operating system, the GPO settings can be viewed and modified in French.
 
-![Auhtors_img](/img/GPOp3.PNG)
+![Auhtors_img](/img/GPOp3.png)
 
 
 > An ADMX file is always accompanied by the associated ADML file. ADMX files define the policy settings to be changed based on the registry. The associated ADML file defines the language parameters of the ADMX file.
@@ -106,11 +106,11 @@ When we open the GPMC console and publish a group strategy, the source of the ad
 
 **For the Computer Section :**
 
-![Auhtors_img](/img/GP11.PNG)
+![Auhtors_img](/img/GPO11.PNG)
 
 **For the User Section :**
 
-![Auhtors_img](/img/GP12.PNG)
+![Auhtors_img](/img/GPO12.PNG)
 
 # 4. Create your first GPO with Powershell
 
@@ -121,7 +121,7 @@ Easy with this powershell command
 ```powershell
 Get-command -module GroupPolicy
 ```
-![Auhtors_img](/img/GP13.PNG)
+![Auhtors_img](/img/GPO13.PNG)
 
 ## 4.2 Create you first blank GPO
 
@@ -130,11 +130,11 @@ New-GPO -Name "Blank_GPO" -Comment "First GPO Blank"
 ```
 ***Wohoo*** it's so easy
 
-![Auhtors_img](/img/GP14.PNG)
+![Auhtors_img](/img/GPO14.PNG)
 
 If you want to verify you can open the console **gpmc.msc**
 
-![Auhtors_img](/img/GP15.PNG)
+![Auhtors_img](/img/GPO15.PNG)
 
 Thank's for reading, in the next part I will talk about all **PowerShell** command to **managed** and **create** and **backup** GPO.
 
