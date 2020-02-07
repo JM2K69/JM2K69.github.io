@@ -94,14 +94,14 @@ If you want you can search them by **Name** or by **GUID**
 
 # 1.2 Create GPO with Powershell
 
-With the powershell `set-GPRegistryValue` command you had the option to set up the registry keys for your GPO. Ok but how!!
+With the powershell `set-GPRegistryValue` command you had the option to set up the **registry** keys for your GPO. Ok but how!!
 The settings of the **set-GPRegistryValue** cmdlet
-* **1.**	The **[-Guid]** parameter corresponds to the GUID of the group strategy.
+* **1.**	The **[-Guid]** parameter corresponds to the `GUID` of the group strategy.
 * **2.**	The **[-Key]** setting specifies the registry key for the focus policy setting based on the attention register:  The key must be in one of the following two registry hives:
-* **3.**	**HKEY_LOCAL_MACHINE** (HKLM) for a registry-based policy setting in Computer Configuration.
-* **4.**	**HKEY_CURRENT_USER** (HKCU) for a registry-based policy setting in the user's configuration.
+* **3.**	**HKEY_LOCAL_MACHINE** (`HKLM`) for a registry-based policy setting in Computer Configuration.
+* **4.**	**HKEY_CURRENT_USER** (`HKCU`) for a registry-based policy setting in the user's configuration.
 * **5.**	The **[-ValueName]** setting specifies a value name or a value name table for the registry-based policy setting.
-* **6.**	The **[-Server]** setting specifies the domain controller on which the codewillbe run.
+* **6.**	The **[-Server]** setting specifies the domain controller on which the code will be run.
 * **7.**	The **[-Type]** setting specifies the type of data for the registry-based policy setting.
 * **8.**	The acceptable values for this setting are: `Channel`, `ExpandString`, `Binary`, `DWord`, `MultiString`,  `QWord`
 
@@ -115,7 +115,7 @@ We will create several GPOs:
 -	Secure computer configuration
 
 > CAUTION
-> When you use the site  https://pspeditor.azurewebsites.net/ becarefull all the registry Path contain HKLM:\Software\Policies.... you need to replace to HKLM\Software\Policies without the **:**.
+> When you use the [site](https://pspeditor.azurewebsites.net/) becarefull all the registry Path contain HKLM:\Software\Policies.... you need to replace to HKLM\Software\Policies without the **:**.
 
 
 Let's only detail the GPO for WSUS
@@ -163,10 +163,10 @@ Set-GPRegistryValue -Name "LAPS_IT" -Key "HKLM\Software\Policies\Microsoft Servi
 ## 2.2 Secure computer configuration
 
 Now we add some example for configure a computer in my school
-* **1.** User Configuration > Control panel > personalization > Prevent changing desktop background
-* **2.** User Configuration > Control panel > personalization > Prevent changing desktop icons
-* **3.** User Configuration > Desktop > Desktop Wallpaper > Desktop Wallpaper
-* **4.** User Configuration > Desktop > Desktop Wallpaper > Remove Recycle Bin icon from desktop
+* **1.** **User Configuration** > *Control panel* > *personalization* > Prevent changing desktop background
+* **2.** **User Configuration** > *Control panel* > *personalization* > Prevent changing desktop icons
+* **3.** **User Configuration** > *Desktop* > *Desktop Wallpaper* > Desktop Wallpaper
+* **4.** **User Configuration** > *Desktop* > *Desktop Wallpaper* > Remove Recycle Bin icon from desktop
 
 PowerShell Time : 
 ```powershell
