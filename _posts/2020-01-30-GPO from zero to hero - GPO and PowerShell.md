@@ -134,7 +134,7 @@ For example, we're going to create a Windows Update group policy and we're going
 
 Now we can define the registry value with the command **set-GPRegistryValue** : 
 ```powershell
- Set-GPRegistryValue -Name "Windows Update" -Key "HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU" -ValueName "DetectionFrequencyEnabled" -Value 1 -Type DWord
+Set-GPRegistryValue -Name "Windows Update" -Key "HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU" -ValueName "DetectionFrequencyEnabled" -Value 1 -Type DWord
 Set-GPRegistryValue -Name "Windows Update" -Key "HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU" -ValueName "De-tectionFrequency" -Value 22 -Type DWord
 
 ```
@@ -192,7 +192,7 @@ To verify with the Group Policy console :
 
 # 3.0 Find Registry value into a GPO
 
-the cmdlet `Get-GPregistryValue` have the same paramter Like Set-GPregistryValue``how to use it.
+The cmdlet `Get-GPregistryValue` have the same paramter Like `Set-GPregistryValue` how to use it.
 ```powershell
 Get-GPRegistryValue -Name "LAPS_IT" -Key "HKLM\Software\Policies\Microsoft Services\AdmPwd" -ValueName AdmPwdEnabled
 ````
