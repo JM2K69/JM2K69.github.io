@@ -122,7 +122,7 @@ Let's only detail the GPO for WSUS
 
 # 2.0 Action GPO
 
-## 2.1 Windows Udate GPO
+## 2.1 Windows Update GPO
 
 For example, we're going to create a Windows Update group policy and we're going to set up that group policy with PowerShell:
 * **1.**	Open a Windows PowerShell command prompt as an administrator.
@@ -274,6 +274,22 @@ ValueName   : Wallpaper
 HasValue    : True
 ```
 Unbelievable, Powershell is really awesome 😉 ! !
+
+# 4.0 Linked them to an OU or not...
+
+Of course all GPOs must be linked to an OU that contains either Computer objects or user objects. For this nothing very difficult there is a cmdlet for doing this: `New-GPLink`.
+
+```powershell
+Get-GPO -Name "Secure_computer" | New-GPLink -target "OU=Lyon,OU=Sites,DC=PwSh,DC=loc" -LinkEnabled Yes
+
+
+GpoId       : 4ca77301-6c21-4820-acb4-2938b4488453
+DisplayName : Secure_computer
+Enabled     : True
+Enforced    : False
+Target      : OU=Lyon,OU=Sites,DC=PwSh,DC=loc
+Order       : 1
+```
 
 In the next part, I will speak about Backup GPO and how to verify if a GPO is apply on computers ;).
 
