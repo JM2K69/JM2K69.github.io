@@ -78,13 +78,6 @@ One example to how to use the Backup-GPO cmdlet.
 ```powershell
 PS C:\Users\JM2K69\> Backup-GPO -Path c:\backupGPO -All
 
-DisplayName     : LAPS_IT
-GpoId           : 0812b530-90c6-4184-a28d-da557d7dd162
-Id              : 64642a36-25e5-4176-aec5-126bd4f782fa
-BackupDirectory : c:\backupGPO
-CreationTime    : 07/04/2020 09:54:14
-DomainName      : PwSh.loc
-Comment         :
 
 DisplayName     : Default Domain Policy
 GpoId           : 31b2f340-016d-11d2-945f-00c04fb984f9
@@ -102,35 +95,12 @@ CreationTime    : 07/04/2020 09:54:17
 DomainName      : PwSh.loc
 Comment         :
 
-DisplayName     : Windows Update
-GpoId           : 5573331e-b77b-4961-8973-612a96d2cfe6
-Id              : e8f5f845-e160-46b4-b749-520b3806c14d
-BackupDirectory : c:\backupGPO
-CreationTime    : 07/04/2020 09:54:17
-DomainName      : PwSh.loc
-Comment         :
 
 DisplayName     : Default Domain Controllers Policy
 GpoId           : 6ac1786c-016f-11d2-945f-00c04fb984f9
 Id              : f61fb31d-8288-4e44-b013-5d8581d17018
 BackupDirectory : c:\backupGPO
 CreationTime    : 07/04/2020 09:54:17
-DomainName      : PwSh.loc
-Comment         :
-
-DisplayName     : It Folder
-GpoId           : 8018f617-6a87-47b8-b698-427d96445370
-Id              : d4a315d5-a638-44bb-aa37-2785665d6aa5
-BackupDirectory : c:\backupGPO
-CreationTime    : 07/04/2020 09:54:18
-DomainName      : PwSh.loc
-Comment         :
-
-DisplayName     : Panneau de configuration
-GpoId           : e66d36eb-f365-44f8-b8d7-6b65d22b56c5
-Id              : 7ada1fd7-1593-40a6-934d-ef7ee33fec33
-BackupDirectory : c:\backupGPO
-CreationTime    : 07/04/2020 09:54:18
 DomainName      : PwSh.loc
 Comment         :
 
