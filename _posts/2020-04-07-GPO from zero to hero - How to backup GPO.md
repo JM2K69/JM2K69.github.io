@@ -155,6 +155,7 @@ In this folder we view that the Default Domain Policy has been modified Three ti
 ## 3.1 Restore-GPO
 
 The **Restore-GPO** command allows us to perform a unit restoration or a complete restoration of all the group policy objects saved.
+
 Restore-GPO **-All** **-Path** <string> **[-Domain <string>]** **[-Server <string>]** 
 
 * The **-All** setting is used to specify the backup of all the GPO in the domain.
