@@ -62,10 +62,11 @@ With yes 3 cmdlets if I count correctly ;-))
 ## 3.1 Backup-GPO
 
 We have the option to complete or individually back up the GPO of an Active Directory domain with the PowerShell **Backup-GPO** command.
-*The details of the command:*
 
-**Backup-GPO** {-All ou [-Name] <string> ou -Guid <Guid>} -Path 
-<string> [-Comment <string>] [-Domain <string>] [-Server <string>]
+The details of the command:
+
+
+**Backup-GPO** {-All ou [-Name] <string> ou -Guid <Guid>} -Path <string> [-Comment <string>] [-Domain <string>] [-Server <string>]
 
 * The **-All** setting is used to specify the backup of all the GPO in the domain.
 * The **-Path** setting is used to inform the location of the backup.
@@ -77,7 +78,6 @@ One example to how to use the Backup-GPO cmdlet.
 
 ```powershell
 PS C:\Users\JM2K69\> Backup-GPO -Path c:\backupGPO -All
-
 
 DisplayName     : Default Domain Policy
 GpoId           : 31b2f340-016d-11d2-945f-00c04fb984f9
@@ -94,7 +94,6 @@ BackupDirectory : c:\backupGPO
 CreationTime    : 07/04/2020 09:54:17
 DomainName      : PwSh.loc
 Comment         :
-
 
 DisplayName     : Default Domain Controllers Policy
 GpoId           : 6ac1786c-016f-11d2-945f-00c04fb984f9
