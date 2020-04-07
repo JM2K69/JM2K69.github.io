@@ -63,9 +63,6 @@ With yes 3 cmdlets if I count correctly ;-))
 
 We have the option to complete or individually back up the GPO of an Active Directory domain with the PowerShell **Backup-GPO** command.
 
-The details of the command:
-
-
 **Backup-GPO** {-All ou [-Name] <string> ou -Guid <Guid>} -Path <string> [-Comment <string>] [-Domain <string>] [-Server <string>]
 
 * The **-All** setting is used to specify the backup of all the GPO in the domain.
@@ -151,7 +148,7 @@ Yes today I just modify my **Default Domain Policy** but in the folder **GPO_Bac
 
 More details let's look at the default domain policy.
 
-![Auhtors_img](/img/GPOBack8b.PNG)
+![Auhtors_img](/img/GPOBack8b.png)
 
 In this folder we view that the Default Domain Policy has been modified Three times Today the **07/04/2020** and the **27/01/2020** two times in one hour the same day.
 
