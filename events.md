@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PowerShell events
-subtitle: PowerShell Events
+subtitle: PowerShell events - courses 
 ---
 <script type="application/ld+json">
 {
@@ -21,14 +21,24 @@ subtitle: PowerShell Events
 }
 </script>
 
+## PowerShell beginner 
 
 |Subjects  |Date  |Type|
 |---------|---------|---------|
 |PowerShell Introduction     |   06/05/2020      |   Online      |
 |PowerShell Variables     |   07/05/2020      |   Online      |
 |PowerShell Functions     |   N/A      |     N/A    |
+|PowerShell scripting     |   N/A      |     N/A    |
+|PowerShell WPF      |   N/A      |     N/A    |
 
+## PowerShell Advanced 
 
+|Subjects  |Date  |Type|
+|---------|---------|---------|
+|PowerShell Scripting     |   N/A      |   N/A      |
+|PowerShell Advanced functions     |   N/A      |   N/A      |
+|PowerShell WPF beginner    |   N/A      |     N/A    |
+|PowerShell WPF advanced     |   N/A      |     N/A    |
 
 
 ## Social Media / Contact Info
