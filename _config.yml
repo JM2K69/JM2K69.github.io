@@ -24,6 +24,7 @@ description: Think PowerShell - Automation - MDT - OSD - Virtualization
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  PowerShell events: "events"
   Resources:
     - Videos Editions-Eni: "http://www.editions-eni.fr/recherche?exp=jerome+bezet&lst_fltrs=257&by=6&lyt=0&chk_fltrs=256"
     - Book Editions Eni: "http://www.editions-eni.fr/recherche?exp=jerome+bezet&lst_fltrs=257&by=6&lyt=0&chk_fltrs=1"
