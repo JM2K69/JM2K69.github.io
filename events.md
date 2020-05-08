@@ -23,13 +23,13 @@ subtitle: PowerShell events - courses
 
 ## PowerShell beginner 
 
-|Subjects  |Date  |Type|
-|---------|---------|---------|
-|PowerShell Introduction     |   06/05/2020      |   Online      |
-|PowerShell Variables     |   07/05/2020      |   Online      |
-|PowerShell Functions     |   N/A      |     N/A    |
-|PowerShell scripting     |   N/A      |     N/A    |
-|PowerShell WPF      |   N/A      |     N/A    |
+|Subjects  |Date  |Type|Link|
+|---------|---------|---------|---------|
+|PowerShell Introduction     |   06/05/2020      |   Online      |[Link](https://youtu.be/seYZGHwJRWA)|
+|PowerShell Variables     |   07/05/2020      |   Online      |---------|
+|PowerShell Functions     |   N/A      |     N/A    |---------|
+|PowerShell scripting     |   N/A      |     N/A    |---------|
+|PowerShell WPF      |   N/A      |     N/A    |---------|
 
 ## PowerShell Advanced 
 
