@@ -1,14 +1,14 @@
 ---
 layout: page
 title: PowerShell events
-subtitle: PowerShell events - courses 
+subtitle: PowerShell events - Sessions 
 ---
 <script type="application/ld+json">
 {
   "@context": "http://schema.org/",
   "@type": "Person",
   "name": "Powershell events",
-  "jobTitle": "Courses - events",
+  "jobTitle": "Sessions - events",
   "address": {
         "@type": "PostalAddress",
         "addressLocality": "Rhone Alpes",
