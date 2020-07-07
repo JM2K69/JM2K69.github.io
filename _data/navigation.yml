@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "About Me"
+    url: /about/
+  - title: "Resources"
+    url: /p/links.html
+  - title: "Post by Year"
+    url: /archive.html
+  - title: "Disclaimer"
+    url: /disclaimer.html
+
+
