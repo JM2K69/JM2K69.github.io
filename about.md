@@ -2,6 +2,8 @@
 layout: single
 title: About
 permalink: /about/
+toc: true
+toc_label: "Table of content"
 ---
 
 I am an IT consultant and Microsoft Certified trainer for 10 years, I like automation. My areas of intervention OSD / MDT / SCCM / WDS / VMware / Windows / VMware / WPF / XAML. I am a fan of PowerShell and PowerCli.
@@ -10,7 +12,7 @@ I am an IT consultant and Microsoft Certified trainer for 10 years, I like autom
 
 ### Open source projects
 
-Stephane is owner of several open source projects, which are liste here under.
+Jérôme is owner of several open source projects, which are liste here under.
 - [TrueNas](https://www.Github.com/PowerTrueNas/TrueNas)
 - [All my project](https://github.com/JM2K69)
 
