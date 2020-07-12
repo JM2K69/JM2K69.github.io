@@ -5,7 +5,11 @@ main:
   - title: "Resources"
     url: /p/links.html
   - title: "Post by Year"
-    url: /archive.html
+    url: /ByYear.html
+  - title: "Tags"
+    url: /ByTag.html
+  - title: "Catégorie"
+    url: /ByCategories.html
   - title: "Disclaimer"
     url: /disclaimer.html
 
