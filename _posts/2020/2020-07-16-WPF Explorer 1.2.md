@@ -50,7 +50,7 @@ If you wish to create your own WPF applications with PowerShell and XAML, you wa
 
 But not that if you ever want to add controls that come from the community that you can find on the nuget galery or on github and it is possible to discover and load these assemblies to read the controls they contain.
 
-Don't forget by default the Application load the default PresentationFramework if you want to load a custom assembly use the toggle switch.{: .notice--info}
+>Don't forget by default the Application load the >default PresentationFramework if you want to load a >custom assembly use the toggle switch.
 
 >*Ping* **@syst_and_deploy** 😊
 
