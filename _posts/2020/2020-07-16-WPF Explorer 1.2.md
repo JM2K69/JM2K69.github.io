@@ -1,6 +1,6 @@
 ﻿---
 layout: single
-title: "WPF Explorer 1.2"
+title: "WPF Explorer 1.0"
 date: 2020-07-16
 tags: 
   - Powershell
