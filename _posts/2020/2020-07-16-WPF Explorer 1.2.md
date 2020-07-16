@@ -83,6 +83,8 @@ Some properties contain static members, ie there are certain values that can be 
 # 3.Example
 In this blog post use a custom assembly MaterialDesign extension created by **Philipp Spiegel** [Github link](https://github.com/spiegelp/MaterialDesignExtensions) wich provide some interesting custom controls for WPF.
 
+In my further blog post I explain how to use the **Stepper** Controls from this library.😊
+
 ![Auhtors_img](/img/WPF_Controler_Ex.PNG){: .align-center}
 
 # 4. How to download
