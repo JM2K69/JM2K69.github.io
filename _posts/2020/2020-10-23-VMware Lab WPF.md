@@ -34,7 +34,7 @@ This application permit to create some `lab` in VMware Workstation I used a wrap
 # 0. What you need
 
 * A strong computer with CPU and some RAM I have 64Gb RAM and 1 To SSD NVme
-* Nested appliance create by Williamn `@Lamw` [here](http://vmwa.re/nestedesxi) 
+* Nested appliance create by William `@Lamw` [here](http://vmwa.re/nestedesxi) 
 * VMware vSphere ISO for your VCSA and extract the OVA
 
 
