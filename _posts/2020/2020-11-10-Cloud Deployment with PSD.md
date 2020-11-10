@@ -10,7 +10,7 @@ tags:
 categories:
   - Powershell
   - Operating System
-published: false
+published: true
 comments: true
 author_profile: true
 header:
