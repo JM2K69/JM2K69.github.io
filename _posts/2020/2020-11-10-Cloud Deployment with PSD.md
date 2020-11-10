@@ -116,6 +116,7 @@ PS E:\Setup\PSDv0.2.1.6\Tools> .\Set-PSDWebInstance.ps1 -psDeploymentFolder E:\M
 uction -Verbose
 ``` 
 ![FriendsofMDT](/img/PSD6.PNG)
+
 You can find the config in your DeploymentShare a new file is gone **web.config**
 
 ![FriendsofMDT](/img/PSD7.PNG)
