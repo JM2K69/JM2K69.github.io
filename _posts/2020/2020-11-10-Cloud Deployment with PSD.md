@@ -34,7 +34,7 @@ I setup two differents Lab in **VMware vsphere** in my production environement, 
 
 Welcome to PDT aka Powershell Deployment toolkit thank's to all contributor of this community tool.
 
-![FriendsofMDT](/img/PSD1.PNG)
+![FriendsofMDT](/img/PSD1.png)
 
  
 # 1.Discovery
