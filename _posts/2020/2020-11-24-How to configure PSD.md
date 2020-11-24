@@ -35,7 +35,7 @@ In my the first post I describe the infrastructure now let go with the configura
  
 # 1.Configuration PSD
 
-## 1.1 TaskSequence
+## 1.1 Import OS
 
 * You need ton import you Operating System in your MDT server.
 
@@ -43,6 +43,10 @@ In my the first post I describe the infrastructure now let go with the configura
 
 {: .notice--warning}
 Your OS and your ADK must use the same version like 19041 for example. if not there is a problemn to activate BITS in WinPe and in your Image. Your image must be Entreprise or Pro version to support **BITS**
+
+## 1.2 Create TS 
+
+Create your TS like always you have create them 😁, and modify with this params.
 
 * **Create** 2PintSoftware Group
 * **Create** the Variable **BranchCacheEnabled**  
@@ -69,7 +73,7 @@ BCEnabler.exe Move %OSVolume%:
 ![FriendsofMDT](/img/PSD21.PNG)
 
 
-## 1.2 Add Drivers
+## 1.3 Add Drivers
 
 My environement is a POC only so I decide to add some driver aproximativly 600 Mo
 
@@ -87,7 +91,7 @@ the script create a Archive and it copy it in the **PSDResources\DriverPackages*
 
 ![FriendsofMDT](/img/PSD13.PNG)
 
-## 1.3 OSDToolKit
+## 1.4 OSDToolKit
 
 you need to download the free Tool form the 2pintSoftware website [Link](https://2pintsoftware.com/products/osd-toolkit/)
 
@@ -114,7 +118,7 @@ Now we need to configure your DeploymentShare :
 
 >this script was call by MDT to enable **BITS** in your WinPe and for OS.
 
-## 1.4 Config CS.ini and BootStrap
+## 1.5 Config CS.ini and BootStrap
 
 You need to make some change in your Files
 
@@ -148,7 +152,7 @@ UserPassword=P@ssw0rd
 UserDomain=MDT01
 ```
 
-## 1.5 Now Update your deploymentShare
+## 1.6 Now Update your deploymentShare
 
 For troobleshooting if your config is ok in the folder **E:\MDTProduction\PSDResources\Plugins\OSDToolkit** a log file must be present. 
 
