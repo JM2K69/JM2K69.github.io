@@ -41,7 +41,7 @@ In my the first post I describe the infrastructure now let go with the configura
 
 ![FriendsofMDT](/img/PSD9.PNG)
 
-{: .box-warning}
+{: .notice--warning}
 Your OS and your ADK must use the same version like 19041 for example. if not there is a problemn to activate BITS in WinPe and in your Image. Your image must be Entreprise or Pro version to support **BITS**
 
 * **Create** 2PintSoftware Group
@@ -58,7 +58,8 @@ BCEnabler.exe Enable %_SMSTSMDataPath%\BCCache 2 1337
 
 ![FriendsofMDT](/img/PSD23.PNG)
 
-{: .notice--info} The BITSACP program is the heart, it is the one that will initiate the downloads of the sources from your server using **BITS**.
+{: .notice--info}
+ The BITSACP program is the heart, it is the one that will initiate the downloads of the sources from your server using **BITS**.
 
 * **Create** another 2PintSoftware Group after the Step configure to `Move` the BranchChache to the OS volume
 ```csharp
@@ -132,7 +133,7 @@ SMSTSDownloadProgram=BITSACP.EXE
 OSDToolkitImageName=Windows 10 Enterprise x64 2004
 ```
 
-{: .notice-success}
+{: .notice--success}
 In the CS.ini you must add **BranchCacheEnabled**, **SMSTSDownloadProgram** and **OSDToolkitImageName** variables.
 Becarefull with the **OSDToolkitImageName** you need to add the value for your OS. In my case *Windows 10 Enterprise x64 2004*.
 
