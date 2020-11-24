@@ -1,6 +1,6 @@
 ﻿---
 layout: single
-title: "Cloud Deployment with PSD"
+title: "How to configure PSD Part 2"
 date: 2020-11-24
 tags: 
   - Powershell
@@ -41,7 +41,8 @@ In my the first post I describe the infrastructure now let go with the configura
 
 ![FriendsofMDT](/img/PSD9.PNG)
 
-{: .notice--warning} Your OS and your ADK must use the same version like 19041 for example. if not there is a problemn to activate BITS in WinPe and in your Image. Your image must be Entreprise or Pro version to support **BITS**
+{: .box-warning}
+Your OS and your ADK must use the same version like 19041 for example. if not there is a problemn to activate BITS in WinPe and in your Image. Your image must be Entreprise or Pro version to support **BITS**
 
 * **Create** 2PintSoftware Group
 * **Create** the Variable **BranchCacheEnabled**  
@@ -131,8 +132,8 @@ SMSTSDownloadProgram=BITSACP.EXE
 OSDToolkitImageName=Windows 10 Enterprise x64 2004
 ```
 
-{: .notice--success} In the CS.ini you must add **BranchCacheEnabled**, **SMSTSDownloadProgram** and **OSDToolkitImageName** variables.
-
+{: .notice-success}
+In the CS.ini you must add **BranchCacheEnabled**, **SMSTSDownloadProgram** and **OSDToolkitImageName** variables.
 Becarefull with the **OSDToolkitImageName** you need to add the value for your OS. In my case *Windows 10 Enterprise x64 2004*.
 
 ```ini
@@ -172,7 +173,8 @@ In my Lab I created 2 VM on Workstation 16
 * 60 Go DD on SSD Nvme
 * 1 vNic 
 
-{: .notice--warning} BranchCache will be limited by the environnement because I use VM with real PC the result must be greatter.
+{: .box-warning}
+BranchCache will be limited by the environnement because I use VM with real PC the result must be greatter.
 
 * First VM
 ![FriendsofMDT](/img/PSD19.PNG)
