@@ -30,7 +30,7 @@ toc_label: "Table of content"
 
 In my the first post I describe the infrastructure now let go with the configuration.
 
-![FriendsofMDT](/img/PSD1.png)
+![FriendsofMDT](/img/PSD1.png){: .align-center}
 
  
 # 1.Configuration PSD
@@ -39,7 +39,7 @@ In my the first post I describe the infrastructure now let go with the configura
 
 * You need ton import you Operating System in your MDT server.
 
-![FriendsofMDT](/img/PSD9.PNG)
+![FriendsofMDT](/img/PSD9.PNG){: .align-center}
 
 {: .notice--warning}
 Your OS and your ADK must use the same version like 19041 for example. if not there is a problemn to activate BITS in WinPe and in your Image. Your image must be Entreprise or Pro version to support **BITS**
@@ -51,7 +51,7 @@ Create your TS like always you have create them 😁, and modify with this param
 * **Create** 2PintSoftware Group
 * **Create** the Variable **BranchCacheEnabled**  
 
-![FriendsofMDT](/img/PSD22.PNG)
+![FriendsofMDT](/img/PSD22.PNG){: .align-center}
 
 * **Enable** BranchCache
 ```csharp
@@ -60,7 +60,7 @@ BCEnabler.exe Enable %_SMSTSMDataPath%\BCCache 2 1337
 
 * **Create** the Variable **SMSTSDownloadProgram**  
 
-![FriendsofMDT](/img/PSD23.PNG)
+![FriendsofMDT](/img/PSD23.PNG){: .align-center}
 
 {: .notice--info}
  The BITSACP program is the heart, it is the one that will initiate the downloads of the sources from your server using **BITS**.
@@ -70,7 +70,7 @@ BCEnabler.exe Enable %_SMSTSMDataPath%\BCCache 2 1337
 BCEnabler.exe Move %OSVolume%:
 ```
 
-![FriendsofMDT](/img/PSD21.PNG)
+![FriendsofMDT](/img/PSD21.PNG){: .align-center}
 
 
 ## 1.3 Add Drivers
@@ -79,17 +79,17 @@ My environement is a POC only so I decide to add some driver aproximativly 600 M
 
 I make this structure for my drivers.
 
-![FriendsofMDT](/img/PSD10.PNG)
+![FriendsofMDT](/img/PSD10.PNG){: .align-center}
 
 And I all your fake or not driver 😁.
 
-![FriendsofMDT](/img/PSD11.PNG)
+![FriendsofMDT](/img/PSD11.PNG){: .align-center}
 
-![FriendsofMDT](/img/PSD12.PNG)
+![FriendsofMDT](/img/PSD12.PNG){: .align-center}
 
 the script create a Archive and it copy it in the **PSDResources\DriverPackages** like this.
 
-![FriendsofMDT](/img/PSD13.PNG)
+![FriendsofMDT](/img/PSD13.PNG){: .align-center}
 
 ## 1.4 OSDToolKit
 
@@ -97,7 +97,7 @@ you need to download the free Tool form the 2pintSoftware website [Link](https:/
 
 You need to creat a account after you can download the software.
 
-![FriendsofMDT](/img/PSD14.PNG)
+![FriendsofMDT](/img/PSD14.PNG){: .align-center}
 
 To Activate th full power for OSDToolkits you need to buy a licence and support, just the free look's very good.
 
@@ -106,15 +106,15 @@ Now we need to configure your DeploymentShare :
 * Extract your OSDToolkit archive
 * Copy to the folder
 
-![FriendsofMDT](/img/PSD15.PNG)
+![FriendsofMDT](/img/PSD15.PNG){: .align-center}
 
 * Modify a the powershell file **PSDUpdateExit.ps1**, you need to uncomment the OSDToolkit part.
 
-![FriendsofMDT](/img/PSD16.PNG)
+![FriendsofMDT](/img/PSD16.PNG){: .align-center}
 
 >Like this 😉.
 
-![FriendsofMDT](/img/PSD17.PNG)
+![FriendsofMDT](/img/PSD17.PNG){: .align-center}
 
 >this script was call by MDT to enable **BITS** in your WinPe and for OS.
 
