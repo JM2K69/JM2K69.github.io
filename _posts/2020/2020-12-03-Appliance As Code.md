@@ -84,7 +84,7 @@ git clone https://github.com/JM2K69/Photon-DNS-Appliance.git
 {: .notice--success}
 When you run the script ./build.sh or ./build_Photon4.sh we use the **provider vmware-iso** and not **vsphere-iso**, you need to enable SSH on your host ESXI.
 
-{: .box-warning}
+{: .box--warning}
 Enable **“Guest IP Hack”**
 Run the following command on the ESXi host:
 
