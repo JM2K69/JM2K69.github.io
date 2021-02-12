@@ -117,9 +117,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/JM2K69"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "vMware vExpert"
+      icon: "fab fa-fw fa-awards"
+      url: "https://vexpert.vmware.com/directory/7034"
 
 # Site Footer
 footer:
