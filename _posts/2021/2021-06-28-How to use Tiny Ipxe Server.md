@@ -1,6 +1,6 @@
 ﻿---
 layout: single
-title: "How to user Tiny Ipxe Server"
+title: "How to use Tiny Ipxe Server"
 date: 2021-06-28
 tags: 
   - OSD
