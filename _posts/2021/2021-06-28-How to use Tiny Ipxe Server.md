@@ -46,7 +46,7 @@ You can find the original project [here](https://github.com/erwan2212/tinypxeser
 
 * There is some important **Files**
 
-1. the main executable file 🤣^of course
+1. the main executable file 🤣 of course
 1. The `config` file
 1. and a file filter.txt for security.
 
