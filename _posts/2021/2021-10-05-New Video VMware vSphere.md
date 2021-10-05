@@ -85,6 +85,9 @@ A video application sequence, made with the vSphere Web Client and a PowerCLI sc
     * Demonstration - Organize your inventory
 
 
+![ENIv1](/img/books/vexpert.png){: .align-center}
+
+
 Thank's for reading.🤗
 
 Written by Jérôme Bezet-Torres @JM2K69.
