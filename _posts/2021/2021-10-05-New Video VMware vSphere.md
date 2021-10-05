@@ -87,6 +87,7 @@ A video application sequence, made with the vSphere Web Client and a PowerCLI sc
 
 ![ENIv1](/img/books/vexpert.png){: .align-center}
 
+And soon the third one on monitoring and supervision of a VMware vsphere environment but also the last one, a page is turned.😓
 
 Thank's for reading.🤗
 
