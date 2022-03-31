@@ -46,9 +46,9 @@ For that, here is the agenda I propose and the topics covered.
 
 | Format 	| Topics 	| When 	|
 |--------	|--------	|------	|
-| Blog| Introduction - IAC| Soon|
-| Meetup	| Packer - Terraform| 3third Week in March	|
-| Blog  	| Packer - how to use	|  not defined    	|
+| Blog| Introduction - IAC| [link](https://jm2k69.github.io/2022/03/Introduction-IAC.html)|
+| Meetup	| Packer - Terraform| [Youtube Meetup](https://youtu.be/xSxz44ls6XA)	|
+| Blog  	| Packer - how to use	|  Soon |
 | Blog  	| Packer Create Master always update	|  not defined    	|
 | Blog  	| Terraform - VMware vSphere	|  not defined    	|
 | Blog  	| Terraform - Vault 	|  not defined    	|    
