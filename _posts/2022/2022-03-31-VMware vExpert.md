@@ -30,7 +30,8 @@ toc_label: "Table of content"
 
 
 I am proud to be a member of VMware vExpert again, thanks to the whole VMware community and this program. One more star 😉.
-Merci à toute l'équipe
+
+
 ![IAC](/img/Vexpert2s.png){: .align-center}
 
 ![IAC](/img/vExpert-Desktop-Hyper-2022-Badge.png){: .align-center}
