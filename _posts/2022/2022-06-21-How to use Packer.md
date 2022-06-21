@@ -375,7 +375,7 @@ you will notice that in the HCL file above all the values are variables and are 
 
 Finally it is now possible to automate the creation of your templates within your private or public cloud environment
 
-On the next part I will speak about Packer and how to use it.
+On the next part I will speak about Terraform and VWware Home Lab 😉.
 
 Thank's for reading.🤗
 
