@@ -105,7 +105,7 @@ We will have the following files:
  * **build.pkvars.hcl** => the default user for all my builds
  * **common.pkvars.hcl** => the default setting to export my **artifacts** , content Library , Template, OVA or OVF File
 
-* vSphere.pkvars.hcl
+* **vSphere.pkvars.hcl**
 
 ```terraform
 /*
@@ -127,7 +127,8 @@ vsphere_datastore  = "FREENAS1_VOL1"
 vsphere_network    = "Packer_DHCP"
 vsphere_folder     = "Packer Sample"
 ```
-* build.pkvars.hcl
+* **build.pkvars.hcl**
+
 ```terraform
 /*
     DESCRIPTION:
@@ -141,7 +142,8 @@ build_username           = "3ICSAdmin"
 build_password           = "3Ics@dmin!."
 build_password_encrypted = "$6$jqoxlQyW2ROxsLK4$P3gGp2Bf0FCSLAZTNaE/LZBqSsvVAYZNPNwTehXZbMAhRJdKOjNqqyUWVUTwql9CnhHUlpiluWzHlR2DpUKD4/"
 ```
-* common.pkvars.hcl
+* **common.pkvars.hcl**
+
 ```terraform
 /*
     DESCRIPTION:
