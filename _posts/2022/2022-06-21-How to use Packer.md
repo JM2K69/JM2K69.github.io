@@ -94,7 +94,7 @@ There are a handful of terms used throughout the Packer. Luckily, there are rela
 
 * **Templates** are either `HCL` or `JSON` files which define one or more builds by configuring the various components of Packer. Packer is able to read a template and use that information to create multiple machine images in parallel.
 
-# 3.Packer and Windows
+# 5.Packer and Windows
 
 Create your own VMware vSphere Template with Packer.
 
