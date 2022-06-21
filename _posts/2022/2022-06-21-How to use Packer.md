@@ -106,6 +106,7 @@ We will have the following files:
  * **common.pkvars.hcl** => the default setting to export my **artifacts** , content Library , Template, OVA or OVF File
 
 * vSphere.pkvars.hcl
+
 ```terraform
 /*
     DESCRIPTION:
