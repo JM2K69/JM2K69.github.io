@@ -94,7 +94,8 @@ With Terraform there is a file that will contain all the variables and this will
 
 ## 3.2 Variables.tf 
 
-{: .notice--info}Only use network with CIDR /24.
+{: .notice--info}
+Only use network with CIDR /24.
 
 *. **ESXI** max 8 `ESxI` the four octet must be in 80..89 range
 
