@@ -61,6 +61,7 @@ It comes in the form of a single executable available on several platforms.
 
 # 3.How to use It ?
 
+{: .notice--info}
 With Terraform, you have to be careful with the management of secrets, so I decided to use Hashicorp's Vault solution to manage access to your host (vCenter or ESXi).
 
 ## 3.1 Vault 
