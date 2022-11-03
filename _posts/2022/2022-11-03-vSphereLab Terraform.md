@@ -61,7 +61,8 @@ It comes in the form of a single executable available on several platforms.
 
 # 3.How to use It ?
 
-{: .notice--info}With Terraform, you have to be careful with the management of secrets, so I decided to use Hashicorp's Vault solution to manage access to your host (vCenter or ESXi).
+{: .notice--info}
+With Terraform, you have to be careful with the management of secrets, so I decided to use Hashicorp's Vault solution to manage access to your host (vCenter or ESXi).
 
 ## 3.1 Vault 
 
@@ -72,12 +73,14 @@ It is necessary to understand that it is not to use a production the way I will 
 1. Launch the script `add_credential.sh`
 
 * File ***start_server.sh***
+
 ```bash
 #!/bin/bash
 vault server -dev -dev-root-token-id="education"
 ```
 
 * File ***add_credential.sh***
+
 ```bash
 #!/bin/bash
 export VAULT_ADDR='http://127.0.0.1:8200'
@@ -243,6 +246,7 @@ variable "Clientguestid" {
 ```
 
 If you want to test **Enabling vSAN 8 Express Storage Architecture** you need to adjust ESXi memory to 16Gb like this..
+
 ```terraform
 
 variable "esxi-ram" {
@@ -389,6 +393,7 @@ On the Block resource `"vsphere_virtual_machine" "vcsa"` comment line 337 to 342
 ## 3.5 Vyos router Lab
 
 Here the bloc for thr router, it use the config via cloud-init encode with a function **filebase64**
+
 ```terraform
 resource "vsphere_virtual_machine" "vyos" {
     depends_on = [
@@ -432,6 +437,7 @@ resource "vsphere_virtual_machine" "vyos" {
 ```
 You need to modify according to all the variables and for your infrastructure
 * Yaml file
+
 ```yml
 vyos_config_commands:
   - set system host-name 'RTRLAB'
@@ -453,7 +459,7 @@ vyos_config_commands:
 
 # 4 Setup the Lab
 
-1. Ensure you have all source mine ar located in /Storage/VMware folder
+1. Ensure you have all source mine ar located in **/Storage/VMware folder**
 ```terraform
  ovf_deploy {
         local_ovf_path    = "/Storage/VMware/PhotonOS_DNS_Appliance_0.2.2.ova"
@@ -483,6 +489,7 @@ If you want to configure you Lab with **One Gist** you can.
 ![IAC](/img/TerraformLab2.PNG){: .align-center}
 
 And gone ! ! 
+The Terraform project is available on Github [here](https://github.com/JM2K69/Terraform_vSphere8)
 
 Thank's for reading.🤗
 
