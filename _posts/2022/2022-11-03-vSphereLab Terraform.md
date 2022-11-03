@@ -258,7 +258,7 @@ variable "esxi-ram" {
 ```
 ## 3.3 vCenter 
 
-For the vcenter we will create a virtual machine vcsa8_ref according to the version and we will unlock the properties of the appliances because only the properties of the phase 1 of deployment are accessible.
+For the vcenter we will create a virtual machine **vcsa8_ref** according to the version and we will unlock the properties of the appliances because only the properties of the phase 1 of deployment are accessible.
 
 {: .notice--warning}
 **Disclaimer**: This is not officially supported by VMware, use at your own risk
@@ -297,7 +297,7 @@ For the vcenter we will create a virtual machine vcsa8_ref according to the vers
             ],
             "thin_disk_mode": true,
             "deployment_option": "tiny",
-            "name": "vcsa8_ref"
+            "name": "vcsa8_ref or vcsa7_ref"
         },
         "network": {
             "ip_family": "ipv4",
