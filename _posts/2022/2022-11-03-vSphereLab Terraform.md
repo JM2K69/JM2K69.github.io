@@ -10,7 +10,7 @@ tags:
   - Terraform
 categories:
   - Iac
-published: false
+published: true
 comments: true
 author_profile: true
 header:
