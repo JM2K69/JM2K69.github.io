@@ -104,7 +104,6 @@ author:
      # url: "mailto:bezettorres.jerome@gmail.com"
     - label: "Microsoft MVP - Alumni"
       icon: "fab fa-fw fa-microsoft"
-      # url: "https://mvp.microsoft.com/en-us/PublicProfile/5003851"
     - label: "Microsoft MCT"
       icon: "fab fa-fw fa-microsoft"
       url: "https://www.youracclaim.com/badges/7dd2d2f7-b1a0-4967-a313-aff9f3d91530/public_url"
@@ -119,7 +118,6 @@ author:
       url: "https://github.com/JM2K69"
     - label: "vMware vExpert 4 years"
       icon: "fab fa-fw fa-awards"
-      # url: "https://vexpert.vmware.com/directory/7034"
 
 # Site Footer
 footer:
